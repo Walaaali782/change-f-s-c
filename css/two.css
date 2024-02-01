@@ -1,0 +1,147 @@
+body{
+  background-color: #eee;
+}
+.wal1 ul{
+  padding: 0;
+  margin: 0;
+  background-color: #ddd;
+  margin: 20px auto;
+  padding: 20px;
+  width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}.wal1 ul li{
+  height: 40px;
+  width: 40px;
+  border: 2px solid transparent;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: 0.3s;}.wal1 ul li:hover,
+.wal1 ul li.active{
+  opacity: 1;
+}.wal1 ul li:first-child{
+  background-color: rgb(0, 0, 0);
+}.wal1 ul li:nth-child(2){
+  background-color: hotpink;
+}.wal1 ul li:nth-child(3){
+  background-color: plum;
+}
+.wal1 ul li:nth-child(4){
+  background-color: blueviolet;
+}.wal1 ul li:nth-child(5){
+  background-color: cadetblue;
+}
+.wal1 ul li:nth-child(6){
+  background-color: sienna;
+}
+.wal1 .experiment{
+  background-color: black;
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+}
+.wal1 .experiment p {
+  color: white;
+  font-size: 20px;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 90px ;
+}
+
+.wal2 ul{
+  padding: 0;
+  margin: 0;
+  background-color: #ddd;
+  margin: 10px auto;
+  padding: 10px;
+  width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.wal2 ul li{
+      width: 73px;
+    margin: 16px auto;
+    font-size: 16px;
+    text-align: center;
+  color: white;
+  background-color: black;
+  border: 2px solid transparent;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.wal2 ul li:hover,
+.wal2 ul li.active1{
+  opacity: 1;
+}
+.wal2 ul li:first-child{
+  font-family: 'Open Sans';
+}
+.wal2 ul li:nth-child(2){
+  font-family: 'Cairo', sans-serif;
+}
+.wal2 ul li:nth-child(3){
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wal3 ul{
+  padding: 0;
+  margin: 0;
+  background-color: #2a2a2a;
+  margin: 10px auto;
+  padding: 5px;
+  width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.wal3 ul li{
+      /* width: 60px;
+      height: 50px; */
+    margin: 10px auto;
+    font-size: 16px;
+    text-align: center;
+  color: black;
+  background-color: white;
+  border: 2px solid transparent;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.wal3 ul li:hover,
+.wal3 ul li.active2{
+  opacity: 1;
+}
+.wal3 ul li:first-child{
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+}
+.wal3 ul li:nth-child(2){
+  width: 50px;
+  height: 35px;
+  font-size: 22px;
+}
+.wal3 ul li:nth-child(3){
+  width: 53px;
+  height: 35px;
+  font-size: 24px;
+}
+.wal3 ul li:nth-child(4){
+  width: 55px;
+  height: 35px;
+  font-size: 26px;
+}
+.wal3 ul li:nth-child(5){
+  width: 56px;
+  height: 37px;
+  font-size: 28px;
+}
+.wal3 ul li:nth-child(6){
+  width: 58px;
+  height: 40px;
+  font-size: 30px;
+}
